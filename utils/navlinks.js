@@ -1,32 +1,27 @@
 export const navLinks = {
   0: {
-    id: "54bf6dda-d563-11eb-b8bc-0242ac130003",
-    name: "link1",
+    id: "54bf71ea-d563-114b-b8bc-0242ac130003",
+    name: "",
     link: "",
   },
   1: {
-    id: "54bf7028-d563-11eb-b8bc-0242ac130003",
-    name: "link2",
+    id: "54bf6dda-d563-11eb-b8bc-0242ac130003",
+    name: "About Us",
     link: "",
   },
   2: {
-    id: "54bf7122-d563-11eb-b8bc-0242ac130003",
-    name: "link3",
+    id: "54bf7028-d563-11eb-b8bc-0242ac130003",
+    name: "Vendor Login",
     link: "",
   },
   3: {
-    id: "54bf71ea-d563-11eb-b8bc-0242ac130003",
-    name: "link4",
+    id: "54bf7122-d563-11eb-b8bc-0242ac130003",
+    name: "Visitor Login",
     link: "",
   },
   4: {
-    id: "54bf72c6-d563-11eb-b8bc-0242ac130003",
-    name: "link5",
-    link: "",
-  },
-  5: {
-    id: "54bf738e-d563-11eb-b8bc-0242ac130003",
-    name: "link6",
+    id: "54bf71ea-d563-11eb-b8bc-0242ac130003",
+    name: "Contact Us",
     link: "",
   },
 };

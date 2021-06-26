@@ -1,7 +1,16 @@
-import Head from "next/head";
 import Image from "next/image";
+import React, { useEffect, useState } from "react";
+import { Entity, Scene } from "aframe-react";
 
 export default function Home() {
+  const [appRendered, setAppRendered] = useState(false);
+  useEffect(() => {
+    if (typeof window != "undefined") {
+      require("aframe");
+      setAppRendered(true);
+    }
+  }, []);
+
   return (
     <>
       {/* <!-- ***** Main Banner Area Start ***** --> */}
@@ -12,12 +21,12 @@ export default function Home() {
 
         <div className="video-overlay header-text">
           <div className="caption">
-            <h6>some text that might inspire people</h6>
+            <h6>A mall like no other</h6>
             <h2>
-              company <em>quote</em>
+              Bridge <em>Mall</em>
             </h2>
             <div className="main-button scroll-to-section">
-              <a href="#features">Check it out</a>
+              <a href="#vr-experience">Check it out</a>
             </div>
           </div>
         </div>
@@ -33,7 +42,12 @@ export default function Home() {
                 <h2>
                   Choose <em>Program</em>
                 </h2>
-                <Image src="/images/line-dec.png" alt="waves" height={10} width={50}/>
+                <Image
+                  src="/images/line-dec.png"
+                  alt="waves"
+                  height={10}
+                  width={50}
+                />
                 <p>
                   Training Studio is free CSS template for gyms and fitness
                   centers. You are allowed to use this layout for your business
@@ -192,6 +206,55 @@ export default function Home() {
         </div>
       </section>
       {/* <!-- ***** Features Item End ***** --> */}
+
+      {/* <!-- ***** vr experience ***** --> */}
+      <section className="section" id="vr-experience">
+        <div className="vr-container">
+          {appRendered && (
+            <Scene embedded>
+              <a-assets>
+                <img id="city" crossOrigin="anonymous" src="/images/mall.png" />
+                <img id="android" src="/images/android.png" />
+                <img id="apple" src="/images/apple.png" />
+              </a-assets>
+              <Entity
+                primitive="a-sky"
+                id="image-360"
+                radius="100"
+                src="#city"
+              />
+              <Entity primitive="a-camera">
+                <Entity primitive="a-cursor" />
+              </Entity>
+
+              <Entity
+                primitive="a-image"
+                geometry={{ primitive: "plane", width: 2 }}
+                material={{ shader: "flat", src: "#android" }}
+                rotation={{ x: 0, y: 15, z: 0 }}
+                position="-2 0 -5"
+                events={{
+                  click: () =>
+                    (window.location.href = "https://www.android.com"),
+                }}
+              />
+
+              <Entity
+                primitive="a-image"
+                href="www.google.com"
+                geometry={{ primitive: "plane", width: 2 }}
+                material={{ shader: "flat", src: "#apple" }}
+                rotation={{ x: 0, y: -15, z: 0 }}
+                position="2 0 -5"
+                events={{
+                  click: () => (window.location.href = "https://www.apple.com"),
+                }}
+              />
+            </Scene>
+          )}
+        </div>
+      </section>
+      {/* <!-- ***** vr experience ***** --> */}
 
       {/* <!-- ***** Call to Action Start ***** --> */}
       <section className="section" id="call-to-action">
