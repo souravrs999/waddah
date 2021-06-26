@@ -213,7 +213,7 @@ export default function Home() {
           {appRendered && (
             <Scene embedded>
               <a-assets>
-                <img id="city" crossOrigin="anonymous" src="/images/mall.png" />
+                <img id="city" src="/images/mall.png" />
                 <img id="android" src="/images/android.png" />
                 <img id="apple" src="/images/apple.png" />
               </a-assets>
