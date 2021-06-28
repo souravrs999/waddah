@@ -23,7 +23,7 @@ export default function Home() {
           <div className="caption">
             <h6>A mall like no other</h6>
             <h2>
-              Smart Target Shopping <em>Mall</em>
+              Bridge <em>Mall</em>
             </h2>
             <div className="main-button scroll-to-section">
               <a href="#vr-experience">Check it out</a>
@@ -202,17 +202,14 @@ export default function Home() {
                 <h2>
                   Don’t <em>think</em>, begin <em>today</em>!
                 </h2>
-                <p>
-                  Install the appropriate client for your platform be it Android
-                  or IOS, download from their respective stores.
-                </p>
+                <p>Install the application and experience shopping virtually</p>
                 <div className="main-button scroll-to-section">
                   <div className="row">
                     <div className="col-lg-6 mt-5">
-                      <a href="https://android.com">Android</a>
+                      <a href="#">Web app</a>
                     </div>
                     <div className="col-lg-6 mt-5">
-                      <a href="https://apple.com">Apple IOS</a>
+                      <a href="#">Mobile app</a>
                     </div>
                   </div>
                 </div>
