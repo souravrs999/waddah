@@ -23,7 +23,7 @@ export default function Home() {
           <div className="caption">
             <h6>A mall like no other</h6>
             <h2>
-              Bridge <em>Mall</em>
+              Smart Target Shopping <em>Mall</em>
             </h2>
             <div className="main-button scroll-to-section">
               <a href="#vr-experience">Check it out</a>
@@ -40,7 +40,7 @@ export default function Home() {
             <div className="col-lg-6 offset-lg-3">
               <div className="section-heading">
                 <h2>
-                  Choose <em>Program</em>
+                  ABOUT THE <em>PLATFORM</em>
                 </h2>
                 <Image
                   src="/images/line-dec.png"
@@ -49,157 +49,94 @@ export default function Home() {
                   width={50}
                 />
                 <p>
-                  Training Studio is free CSS template for gyms and fitness
-                  centers. You are allowed to use this layout for your business
-                  website.
+                  Virtual Shopping Mall platform for providing shopping
+                  destination which brings values to the shopping experience of
+                  consumers in replacing traditional mode of shopping with the
+                  latest technology.
                 </p>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <ul className="features-items">
-                <li className="feature-item">
-                  <div className="left-icon">
-                    <Image
-                      src="/images/features-first-icon.png"
-                      alt="First One"
-                      height={100}
-                      width={100}
-                    />
-                  </div>
-                  <div className="right-content">
-                    <h4>Basic Fitness</h4>
-                    <p>
-                      Please do not re-distribute this template ZIP file on any
-                      template collection website. This is not allowed.
-                    </p>
-                    <a href="#" className="text-button">
+                <div className="row">
+                  <div className="col-lg-4">
+                    <li className="feature-item">
+                      <div className="left-icon">
+                        <Image
+                          src="/images/features-second-icon.png"
+                          alt="First One"
+                          height={100}
+                          width={100}
+                        />
+                      </div>
+                      <div className="right-content">
+                        <h4>Mall Creation & Management</h4>
+                        <p>
+                          Virtual platform for shopping mall will provide
+                          opportunity to create and manage the mall virtually.
+                          The visitors can register through our platform so that
+                          management of the shops will be more effective and
+                          efficient.
+                        </p>
+                        {/* <a href="#" className="text-button">
                       Discover More
-                    </a>
+                    </a> */}
+                      </div>
+                    </li>
                   </div>
-                </li>
-                <li className="feature-item">
-                  <div className="left-icon">
-                    <Image
-                      src="/images/features-first-icon.png"
-                      alt="First One"
-                      height={100}
-                      width={100}
-                    />
+                  <div className="col-lg-4">
+                    <li className="feature-item">
+                      <div className="left-icon">
+                        <Image
+                          src="/images/features-third-icon.png"
+                          alt="First One"
+                          height={100}
+                          width={100}
+                        />
+                      </div>
+                      <div className="right-content">
+                        <h4>Webapp for Sellers</h4>
+                        <p>
+                          Seller can add and manage the 3D models and also
+                          interact with the buyers inside the shop. They can
+                          also upload the offer prices of each product which
+                          will automatically redirect as a mail or SMS
+                          notification to the buyers.
+                        </p>
+                        {/* <a href="#" className="text-button">
+                          Discover More
+                        </a> */}
+                      </div>
+                    </li>
                   </div>
-                  <div className="right-content">
-                    <h4>New Gym Training</h4>
-                    <p>
-                      If you wish to support TemplateMo website via PayPal,
-                      please feel free to contact us.
-                    </p>
-                    <a href="#" className="text-button">
-                      Discover More
-                    </a>
+                  <div className="col-lg-4">
+                    <li className="feature-item">
+                      <div className="left-icon">
+                        <Image
+                          src="/images/features-first-icon.png"
+                          alt="First One"
+                          height={100}
+                          width={100}
+                        />
+                      </div>
+                      <div className="right-content">
+                        <h4>Mobile app for Buyers (Android )</h4>
+                        <p>
+                          Buyers can login from their Android mobile application
+                          to explore the shopping experience virtually. Once the
+                          users get registered in our platform, they can enter
+                          the mall lobby with floor plan and the buyers can
+                          easily choose their shop for purchase. The purchased
+                          products will be delivered through the e-commerce
+                          platform.
+                        </p>
+                        {/* <a href="#" className="text-button">
+                          Discover More
+                        </a> */}
+                      </div>
+                    </li>
                   </div>
-                </li>
-                <li className="feature-item">
-                  <div className="left-icon">
-                    <Image
-                      src="/images/features-first-icon.png"
-                      alt="First One"
-                      height={100}
-                      width={100}
-                    />
-                  </div>
-                  <div className="right-content">
-                    <h4>Basic Muscle Course</h4>
-                    <p>
-                      Credit goes to{" "}
-                      <a
-                        href="https://www.pexels.com"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Pexels website
-                      </a>{" "}
-                      for images and video background used in this HTML
-                      template.
-                    </p>
-                    <a href="#" className="text-button">
-                      Discover More
-                    </a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div className="col-lg-6">
-              <ul className="features-items">
-                <li className="feature-item">
-                  <div className="left-icon">
-                    <Image
-                      src="/images/features-first-icon.png"
-                      alt="First One"
-                      height={100}
-                      width={100}
-                    />
-                  </div>
-                  <div className="right-content">
-                    <h4>Advanced Muscle Course</h4>
-                    <p>
-                      You may want to browse through{" "}
-                      <a
-                        rel="nofollow"
-                        href="https://templatemo.com/tag/digital-marketing"
-                        target="_parent"
-                      >
-                        Digital Marketing
-                      </a>{" "}
-                      or{" "}
-                      <a href="https://templatemo.com/tag/corporate">
-                        Corporate
-                      </a>{" "}
-                      HTML CSS templates on our website.
-                    </p>
-                    <a href="#" className="text-button">
-                      Discover More
-                    </a>
-                  </div>
-                </li>
-                <li className="feature-item">
-                  <div className="left-icon">
-                    <Image
-                      src="/images/features-first-icon.png"
-                      alt="First One"
-                      height={100}
-                      width={100}
-                    />
-                  </div>
-                  <div className="right-content">
-                    <h4>Yoga Training</h4>
-                    <p>
-                      This template is built on Bootstrap v4.3.1. It is easy to
-                      adapt the columns and sections.
-                    </p>
-                    <a href="#" className="text-button">
-                      Discover More
-                    </a>
-                  </div>
-                </li>
-                <li className="feature-item">
-                  <div className="left-icon">
-                    <Image
-                      src="/images/features-first-icon.png"
-                      alt="First One"
-                      height={100}
-                      width={100}
-                    />
-                  </div>
-                  <div className="right-content">
-                    <h4>Body Building Course</h4>
-                    <p>
-                      Suspendisse fringilla et nisi et mattis. Curabitur sed
-                      finibus nisi. Integer nibh sapien, vehicula et auctor.
-                    </p>
-                    <a href="#" className="text-button">
-                      Discover More
-                    </a>
-                  </div>
-                </li>
+                </div>
               </ul>
             </div>
           </div>
@@ -271,11 +208,11 @@ export default function Home() {
                 </p>
                 <div className="main-button scroll-to-section">
                   <div className="row">
-                    <div className="col-lg-6">
-                      <a href="#our-classNamees">Android</a>
+                    <div className="col-lg-6 mt-5">
+                      <a href="https://android.com">Android</a>
                     </div>
-                    <div className="col-lg-6">
-                      <a href="#our-classNamees">Apple IOS</a>
+                    <div className="col-lg-6 mt-5">
+                      <a href="https://apple.com">Apple IOS</a>
                     </div>
                   </div>
                 </div>
