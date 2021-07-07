@@ -12,12 +12,12 @@ export const navLinks = {
   2: {
     id: "54bf7028-d563-11eb-b8bc-0242ac130003",
     name: "Vendor Login",
-    link: "http://13.233.41.145",
+    link: "http://13.233.41.145/",
   },
   3: {
     id: "54bf7122-d563-11eb-b8bc-0242ac130003",
     name: "Visitor Login",
-    link: "https://anureshkv.github.io/xrevent/",
+    link: "http://13.233.41.145:4000/",
   },
   4: {
     id: "54bf71ea-d563-11eb-b8bc-0242ac130003",
